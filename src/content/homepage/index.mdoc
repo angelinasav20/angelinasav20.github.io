@@ -1,0 +1,29 @@
+---
+title: Home
+hideTitle: true
+customNavigation:
+  discriminant: true
+  value:
+    - title: Portfolio
+      subItems: all
+---
+{% PortfolioView
+   unique="1712274945295"
+   portfolioLayout="cards"
+   projectSource="all"
+   customClass="custom-class" /%}
+
+{% CustomCSSWrapper
+   customCSS="cGFkZGluZzozcmVtOwpiYWNrZ3JvdW5kLWNvbG9yOmRhcmtibHVlOwpjb2xvcjp3aGl0ZTsKYm9yZGVyLXJhZGl1czouNXJlbTsKYm9yZGVyOjFweCBzb2xpZCB3aGl0ZQo="
+   customClass="custom-class" %}
+# This is a Custom CSS component
+
+I can put any elements i want inside it.
+
+{% CustomCSSWrapper
+   customCSS="YmFja2dyb3VuZC1jb2xvcjpibHVlOwpib3JkZXItcmFkaXVzOi41cmVtOwpwYWRkaW5nOjFyZW07" %}
+I can even nest other custom components inside it
+{% /CustomCSSWrapper %}
+
+Some content
+{% /CustomCSSWrapper %}
