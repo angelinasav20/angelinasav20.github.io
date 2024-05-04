@@ -149,14 +149,14 @@ declare module 'astro:content' {
   slug: "about";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 "hidden-page.mdoc": {
 	id: "hidden-page.mdoc";
   slug: "hidden-page";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
@@ -165,79 +165,79 @@ declare module 'astro:content' {
   slug: "all";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 "custom-group.mdoc": {
 	id: "custom-group.mdoc";
   slug: "custom-group";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "projects": {
-"an-actual-design-project.mdoc": {
-	id: "an-actual-design-project.mdoc";
-  slug: "an-actual-design-project";
+"cartooncatportrait.mdoc": {
+	id: "cartooncatportrait.mdoc";
+  slug: "cartooncatportrait";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"bear.mdoc": {
-	id: "bear.mdoc";
-  slug: "bear";
+"figuredraw.mdoc": {
+	id: "figuredraw.mdoc";
+  slug: "figuredraw";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"data-sphere-innovations.mdoc": {
-	id: "data-sphere-innovations.mdoc";
-  slug: "data-sphere-innovations";
+"landscape1.mdoc": {
+	id: "landscape1.mdoc";
+  slug: "landscape1";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"eco-essence.mdoc": {
-	id: "eco-essence.mdoc";
-  slug: "eco-essence";
+"landscapestormking.mdoc": {
+	id: "landscapestormking.mdoc";
+  slug: "landscapestormking";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"formatting-test.mdoc": {
-	id: "formatting-test.mdoc";
-  slug: "formatting-test";
+"magazinecyber.mdoc": {
+	id: "magazinecyber.mdoc";
+  slug: "magazinecyber";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"typography-stuff.mdoc": {
-	id: "typography-stuff.mdoc";
-  slug: "typography-stuff";
+"mastercopy.mdoc": {
+	id: "mastercopy.mdoc";
+  slug: "mastercopy";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"unlisted-project.mdoc": {
-	id: "unlisted-project.mdoc";
-  slug: "unlisted-project";
+"selfportrait.mdoc": {
+	id: "selfportrait.mdoc";
+  slug: "selfportrait";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
-"unpublished-page.mdoc": {
-	id: "unpublished-page.mdoc";
-  slug: "unpublished-page";
+"vinylalbum.mdoc": {
+	id: "vinylalbum.mdoc";
+  slug: "vinylalbum";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "you-wouldn-t-download-a-hedgehog.mdoc": {
 	id: "you-wouldn-t-download-a-hedgehog.mdoc";
   slug: "you-wouldn-t-download-a-hedgehog";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 
@@ -249,5 +249,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }
