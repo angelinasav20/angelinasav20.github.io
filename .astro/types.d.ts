@@ -167,9 +167,16 @@ declare module 'astro:content' {
   collection: "portfolioGroups";
   data: any
 } & { render(): Render[".mdoc"] };
-"custom-group.mdoc": {
-	id: "custom-group.mdoc";
-  slug: "custom-group";
+"digital.mdoc": {
+	id: "digital.mdoc";
+  slug: "digital";
+  body: string;
+  collection: "portfolioGroups";
+  data: any
+} & { render(): Render[".mdoc"] };
+"traditional.mdoc": {
+	id: "traditional.mdoc";
+  slug: "traditional";
   body: string;
   collection: "portfolioGroups";
   data: any
@@ -179,6 +186,13 @@ declare module 'astro:content' {
 "cartooncatportrait.mdoc": {
 	id: "cartooncatportrait.mdoc";
   slug: "cartooncatportrait";
+  body: string;
+  collection: "projects";
+  data: any
+} & { render(): Render[".mdoc"] };
+"falconredesign.mdoc": {
+	id: "falconredesign.mdoc";
+  slug: "falconredesign";
   body: string;
   collection: "projects";
   data: any
@@ -204,6 +218,13 @@ declare module 'astro:content' {
   collection: "projects";
   data: any
 } & { render(): Render[".mdoc"] };
+"laphil.mdoc": {
+	id: "laphil.mdoc";
+  slug: "laphil";
+  body: string;
+  collection: "projects";
+  data: any
+} & { render(): Render[".mdoc"] };
 "magazinecyber.mdoc": {
 	id: "magazinecyber.mdoc";
   slug: "magazinecyber";
@@ -218,6 +239,13 @@ declare module 'astro:content' {
   collection: "projects";
   data: any
 } & { render(): Render[".mdoc"] };
+"natures-keepers.mdoc": {
+	id: "natures-keepers.mdoc";
+  slug: "natures-keepers";
+  body: string;
+  collection: "projects";
+  data: any
+} & { render(): Render[".mdoc"] };
 "selfportrait.mdoc": {
 	id: "selfportrait.mdoc";
   slug: "selfportrait";
@@ -225,16 +253,16 @@ declare module 'astro:content' {
   collection: "projects";
   data: any
 } & { render(): Render[".mdoc"] };
-"vinylalbum.mdoc": {
-	id: "vinylalbum.mdoc";
-  slug: "vinylalbum";
+"teabranding.mdoc": {
+	id: "teabranding.mdoc";
+  slug: "teabranding";
   body: string;
   collection: "projects";
   data: any
 } & { render(): Render[".mdoc"] };
-"you-wouldn-t-download-a-hedgehog.mdoc": {
-	id: "you-wouldn-t-download-a-hedgehog.mdoc";
-  slug: "you-wouldn-t-download-a-hedgehog";
+"vinylalbum.mdoc": {
+	id: "vinylalbum.mdoc";
+  slug: "vinylalbum";
   body: string;
   collection: "projects";
   data: any
