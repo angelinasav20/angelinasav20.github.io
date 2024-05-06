@@ -1,5 +1,5 @@
 {
-  "siteTitle": "Your Name Here",
+  "siteTitle": "Angelina Savino",
   "position": {
     "discriminant": "top",
     "value": {
@@ -11,25 +11,25 @@
     "blurBehind": true
   },
   "sizes": {
-    "topBarHeight": "60px",
+    "topBarHeight": "65px",
     "topBarPadding": "1rem",
     "menuPadding": "1rem",
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff87",
-    "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#0a0057ed",
-    "dropdownHoverColor": "#ffffff80"
+    "backgroundColor": "#00a8a887",
+    "menuHoverColor": "#b2fbf080",
+    "dropdownColor": "#22dcdc87",
+    "dropdownHoverColor": "#e4f9f987"
   },
   "typography": {
     "menuMain": {
-      "fontFamily": "fontStack1",
+      "fontFamily": "fontStack2",
       "fontWeight": "400",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "1.25rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#04222a",
       "marginTop": "0.5rem",
       "marginBottom": "0.5rem"
     },
@@ -44,12 +44,12 @@
       "marginBottom": "4px"
     },
     "menuText": {
-      "fontFamily": "fontStack3",
+      "fontFamily": "fontStack1",
       "fontWeight": "400",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "2rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#04222a",
       "marginTop": "4px",
       "marginBottom": "4px"
     }
