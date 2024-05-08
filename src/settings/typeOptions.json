@@ -45,11 +45,11 @@
   },
   "h4": {
     "fontFamily": "fontStack2",
-    "fontWeight": "700",
+    "fontWeight": "400",
     "fontStyle": "normal",
-    "fontSize": "1NaNrem",
+    "fontSize": "2rem",
     "lineHeight": 1.25,
-    "color": "",
+    "color": "#04222a",
     "marginTop": "1em",
     "marginBottom": "1em"
   },
