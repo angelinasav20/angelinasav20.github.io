@@ -149,28 +149,28 @@ declare module 'astro:content' {
   slug: "about";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 "contactme.mdoc": {
 	id: "contactme.mdoc";
   slug: "contactme";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 "digital-art.mdoc": {
 	id: "digital-art.mdoc";
   slug: "digital-art";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 "traditional-art.mdoc": {
 	id: "traditional-art.mdoc";
   slug: "traditional-art";
   body: string;
   collection: "pages";
-  data: InferEntrySchema<"pages">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
@@ -179,21 +179,21 @@ declare module 'astro:content' {
   slug: "all";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 "digital.mdoc": {
 	id: "digital.mdoc";
   slug: "digital";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 "traditional.mdoc": {
 	id: "traditional.mdoc";
   slug: "traditional";
   body: string;
   collection: "portfolioGroups";
-  data: InferEntrySchema<"portfolioGroups">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 "projects": {
@@ -202,84 +202,91 @@ declare module 'astro:content' {
   slug: "cartooncatportrait";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "falconredesign.mdoc": {
 	id: "falconredesign.mdoc";
   slug: "falconredesign";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "figuredraw.mdoc": {
 	id: "figuredraw.mdoc";
   slug: "figuredraw";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "landscape1.mdoc": {
 	id: "landscape1.mdoc";
   slug: "landscape1";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "landscapestormking.mdoc": {
 	id: "landscapestormking.mdoc";
   slug: "landscapestormking";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "laphil.mdoc": {
 	id: "laphil.mdoc";
   slug: "laphil";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "magazinecyber.mdoc": {
 	id: "magazinecyber.mdoc";
   slug: "magazinecyber";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "mastercopy.mdoc": {
 	id: "mastercopy.mdoc";
   slug: "mastercopy";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "natures-keepers.mdoc": {
 	id: "natures-keepers.mdoc";
   slug: "natures-keepers";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "selfportrait.mdoc": {
 	id: "selfportrait.mdoc";
   slug: "selfportrait";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
+} & { render(): Render[".mdoc"] };
+"soyuzivka-heritage-center.mdoc": {
+	id: "soyuzivka-heritage-center.mdoc";
+  slug: "soyuzivka-heritage-center";
+  body: string;
+  collection: "projects";
+  data: any
 } & { render(): Render[".mdoc"] };
 "teabranding.mdoc": {
 	id: "teabranding.mdoc";
   slug: "teabranding";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 "vinylalbum.mdoc": {
 	id: "vinylalbum.mdoc";
   slug: "vinylalbum";
   body: string;
   collection: "projects";
-  data: InferEntrySchema<"projects">
+  data: any
 } & { render(): Render[".mdoc"] };
 };
 
@@ -291,5 +298,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	export type ContentConfig = typeof import("../src/content/config.js");
+	export type ContentConfig = never;
 }
